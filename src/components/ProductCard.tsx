@@ -1,5 +1,5 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
-import React, { FC } from 'react'
+import { FC } from 'react'
 import NotAvailabeImg from "../assets/image-not-available.png"
 import { IProduct } from '../type'
 import { useAppDispatch } from '../store/hooks'

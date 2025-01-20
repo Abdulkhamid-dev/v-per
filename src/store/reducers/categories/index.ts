@@ -1,7 +1,6 @@
 import { ICategory } from "./../../../type/index";
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
-import { RootState } from "../../store";
 
 interface CategoriesState {
   categories: ICategory[];
